@@ -81,3 +81,48 @@ button[type="submit"] {
     font-size: 0.75rem;
     opacity: 0.8;
 }
+
+.brand-container{
+    position: relative;
+    margin-left: 1.5rem;
+}
+.btag{
+    color: rgb(28, 28, 28);
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 2.5rem 0px 2.2rem;
+}
+.brands{
+    height: auto;
+    width: 15rem;
+    margin-right: 40px;
+}
+.brand-lists{
+    position: relative;
+    display:flex;
+    width: 100%;
+    overflow: auto;
+}
+.bsort{
+    width: 15rem;
+    cursor: pointer;
+}
+.imgbox{
+    border: 0.5px solid rgb(232, 232, 232);
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 12px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.brand-img{
+    width: 100%;
+}
+.bname{
+    line-height: 1.2;
+    color: rgb(28, 28, 28);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1rem 0px 0px;
+    word-break: break-word;
+}
