@@ -1,32 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PeXs</title>
     <link rel="stylesheet" href="PE.css">
+    <script src="https://kit.fontawesome.com/fa2a4ee684.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        <h1>ParadiseEpress</h1>
-        <img src="" alt="" class="">
-        <form>
-            <input type="text" placeholder="Search for restaurants...">
-            <button type="submit">Search</button>
-        </form>
-        <nav class="nav-items">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Restaurants</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <nav class="head-nav">
+            <h1>ParadiseXpress</h1>
+            <img src="" alt="" class="">
+            <div class="search-box">
+                <div class="search-first">
+                    <i class="icon-sort">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                            viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                            <style>
+                                svg {
+                                    fill: #000000
+                                }
+                            </style>
+                            <path
+                                d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                        </svg>
+                    </i>
+                    <input placeholder="Location.." class="searchhalf">
+                </div>
+                <div class="divider-line"></div>
+                <div class="search-second">
+                    <div class="search-align">
+                        <i class="icon-sort">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                                viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                <style>
+                                    svg {
+                                        fill: #000000
+                                    }
+                                </style>
+                                <path
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                            </svg>
+                        </i>
+                    </div>
+                    <input placeholder="Search for restaurants.." class="search2half" value>
+                </div>
+            </div>
+            <nav class="nav-items">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Restaurants</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </nav>
-       
     </header>
-    
-     <div class="brand-container">
-        <h3 class="btag">Inspriration for yor order</h3>
+
+    <div class="nav2">
+        <div class="nav2-box">
+            <div class="max-ratio">
+                <section class="nav2-lists">
+                    <section role="tablist" class="nav2-align">
+                        <div class="nav2-items">
+                            <h2 class="navitem">
+                                <div class="navimg">
+                                    <img src="./assets/fast-delivery.png" alt="" class="">
+                                </div>
+                                Delivery
+                            </h2>
+                        </div>
+                        <div class="nav2-items">
+                            <h2 class="navitem">
+                                <div class="navimg">
+                                    <img src="./assets/restaurant.png" alt="">
+                                </div>
+                                Dining Out
+                            </h2>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav3">
+        <div class="max-ratio">
+            <div class="nav3-lists">
+                <div class="nav3-items">
+                    <div class="nav2item">
+                        <img src="./assets/filter (1).png" class="filter-img">
+                        <title>filter</title>
+                        Filters
+                        </svg>
+                    </div>
+                </div>
+                <div class="nav3-items">
+                    <div class="nav2item">
+                        Rating: 4.0 +
+                    </div>
+                </div>
+                <div class="nav3-items">
+                    <div class="nav2item">
+                        Pure Veg
+                    </div>
+                </div>
+                <div class="nav3-items">
+                    <div class="nav2item">
+                        Cuisines
+                    </div>
+                </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="brand-container">
+        <h3 class="btag">Inspiration for yor order</h3>
         <div class="brand-lists">
             <section class="brands">
                 <div class="bsort">
@@ -288,12 +381,48 @@
     </div>
 
     <footer>
-        <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-        <p>&copy; 2023 Paradise Express</p>
+        <div class="footer-container">
+            <div class="firsthalf">
+                <h3>ParadiseXpress</h2>
+            </div>
+            <div class="secondhalf">
+                <div name="About ParadiseXpress" class="footer-content">
+                    <h6 class="contentsort">About ParadiseXpress</h6>
+                    <a href="#">
+                        <p class="f2fs">Who We are</p>
+                    </a>
+                    <a href="#">
+                        <p class="f2fs">Contact Us</p>
+                    </a>
+                </div>
+                <div name="Learn More" class="footer-content">
+                    <h6 class="contentsort">Learn More</h6>
+                    <a href="#">
+                        <p class="f2fs">Privacy Policy</p>
+                    </a>
+                    <a href="#">
+                        <p class="f2fs">Terms of Service</p>
+                    </a>
+                </div>
+                <div name="Social Links" class="social footer-content">
+                    <h6 class="contentsort">Social Links</h6>
+                    <div class="linksort">
+                        <a href="#">
+                        </a>
+                        <a href="#">
+                        </a>
+                        <a href="#">
+                        </a>
+                        <a href="#">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="dash">
+            <p class="footer-end">By continuing past this page, you agree to our Terms of Service, Cookie Policy,
+                Privacy Policy and Content Policies. All trademarks are properties of their respective owners.
+                © ParadiseXpress™ Ltd. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 
